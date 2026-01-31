@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F4F5F7;
+}
+
+.card-custom {
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.btn-primary-custom {
+    background-color: #0052CC;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+}
+
+.btn-primary-custom:hover {
+    background-color: #0747A6;
+}
