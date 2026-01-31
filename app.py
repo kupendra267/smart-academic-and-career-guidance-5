@@ -53,7 +53,7 @@ def generate_ai_questions():
     category = random.choice(list(AI_QUESTION_BANK.keys()))
     questions = random.sample(AI_QUESTION_BANK[category], 2)
     return category, questions
-
+const port = process.env.PORT || 4000 
 # -------------------------------
 # HOME
 # -------------------------------
@@ -184,4 +184,5 @@ def final_result():
 
 # -------------------------------
 if __name__ == "__main__":
+
     app.run(debug=True)
